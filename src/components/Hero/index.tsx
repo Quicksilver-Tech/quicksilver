@@ -15,9 +15,9 @@ const Hero = () => {
                   Your business deserves better software.
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Harnessing the power of <strong className=" text-green-500">pioneering technology to execute tailor-made solutions. </strong>
+                  Harnessing the power of <strong>pioneering technology to execute tailor-made solutions. </strong>
                   From internal process automation and support for key business operations to cutting-edge customer-facing platforms,
-                  company-specific digital solutions that can be the missing link in <strong className=" text-green-500">propelling your business forward</strong>.
+                  company-specific digital solutions that can be the missing link in <strong>propelling your business forward</strong>.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link

@@ -24,7 +24,7 @@ export default function ChooseUs() {
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
           <h2 className=" text-3xl sm:text-5xl py-6 font-semibold leading-8 text-indigo-600 dark:text-indigo-400 ">Why Choose Us</h2>
           <p className="mt-2 text-2xl font-bold tracking-tight text-black dark:text-white sm:text-3xl">
-            We Develop software that gives you a  <strong className=" text-green-500">competitive edge </strong> using the <strong className=" text-green-500">latest technologies. </strong>
+            We Develop software that gives you a  <strong className="">competitive edge </strong> using the <strong className="">latest technologies. </strong>
           </p>
           <p className="mt-6 text-lg leading-8 text-body-color dark:text-body-color-dark">
             Following careful examination of your business needs, our expert team will recommend the best strategy to successfully achieve your goals.
