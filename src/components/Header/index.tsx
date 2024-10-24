@@ -55,14 +55,14 @@ const Header = () => {
                   } `}
               >
                 <Image
-                  src="/images/logo/quicksilver-logo.png"
+                  src="/images/logo/logo-3.png"
                   alt="logo"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/quicksilver-logo.png"
+                  src="/images/logo/logo-3.png"
                   alt="logo"
                   width={140}
                   height={30}

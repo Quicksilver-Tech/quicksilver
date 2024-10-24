@@ -9,19 +9,19 @@ const Footer = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-12 max-w-[300px] lg:mb-16">
+              <div className="mb-12 sm:max-w-[300px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/quicksilver-logo.png"
+                    src="/images/logo/logo-3.png"
                     alt="logo"
-                    className="w-full dark:hidden"
+                    className="w-2/3 sm:w-full dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src="/images/logo/quicksilver-logo.png"
+                    src="/images/logo/logo-3.png"
                     alt="logo"
-                    className="hidden w-full dark:block"
+                    className="hidden w-2/3 sm:w-full dark:block"
                     width={140}
                     height={30}
                   />
