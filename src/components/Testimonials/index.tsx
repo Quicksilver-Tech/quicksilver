@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Sajjan Kumar",
+    designation: "Co-Founder @TailGrids",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "We were looking for a professional web development team to partner with. Their instant reply to my enquiry and level of thought made them stand out on our shortlist. We were inspired by their clear, concise, and timely communication with us.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
     name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    designation: "Founder & CEO, Spencer Reality, LLC",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "It was hard to find a vendor that has collaborative nature and expertise in customizable design. We found Quicksilver team and were blown away by their energy & passion for web designing. They were easy to communicate with and conveyed every roadblock in their process.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Client Partner",
+    designation: "Owner, OntarioCamping",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "We were looking for a development partner for one of our latest projects and had very specific requirements. We partnered with ColorWhistle. I liked the way the team approached the requirements and the project. Communicating with the team was amazing. They always kept us updated and everything was on time.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Our Clients Say"
+          paragraph="Known for their professionalism"
           center
         />
 

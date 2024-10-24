@@ -1,8 +1,8 @@
 const stats = [
-  { id: 1, name: 'Years of Experience', value: '10+' },
-  { id: 2, name: 'Happy Clients', value: '200+' },
-  { id: 3, name: 'Projects Completed', value: '100+' },
-  { id: 4, name: 'Paid out to creators', value: '$70M' },
+  { id: 1, name: 'Years of Domain Expertise', value: '10+' },
+  { id: 2, name: 'Client Retention', value: '100%' },
+  { id: 3, name: 'Projects Completed', value: '500+' },
+  { id: 4, name: 'Experts', value: '30+' }
 ]
 
 export default function ChooseUs() {
@@ -22,19 +22,19 @@ export default function ChooseUs() {
           />
         </div> */}
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-          <h2 className=" text-3xl sm:text-5xl py-6 font-semibold leading-8 text-indigo-600 dark:text-indigo-400 ">Why Choose Us</h2>
-          <p className="mt-2 text-2xl font-bold tracking-tight text-black dark:text-white sm:text-3xl">
+          <h2 className=" text-3xl sm:text-5xl py-6 font-bold leading-8 text-indigo-600 dark:text-indigo-400 ">Why Choose Us</h2>
+          <p className="mt-2 text-2xl font-semibold tracking-tight text-black dark:text-white sm:text-2xl">
             We Develop software that gives you a  <strong className="">competitive edge </strong> using the <strong className="">latest technologies. </strong>
           </p>
           <p className="mt-6 text-lg leading-8 text-body-color dark:text-body-color-dark">
             Following careful examination of your business needs, our expert team will recommend the best strategy to successfully achieve your goals.
           </p>
         </div>
-        <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 text-black dark:text-white sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+        <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 text-indigo-600 dark:text-indigo-400 sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-4">
           {stats.map((stat) => (
             <div key={stat.id} className="flex flex-col gap-y-3 border-l border-white/10 pl-6">
-              <dt className="text-sm leading-6">{stat.name}</dt>
-              <dd className="order-first text-3xl sm:text-5xl font-semibold tracking-tight">{stat.value}</dd>
+              <dt className=" text-base font-semibold leading-6">{stat.name}</dt>
+              <dd className="order-first text-3xl sm:text-5xl font-bold tracking-tight">{stat.value}</dd>
             </div>
           ))}
         </dl>

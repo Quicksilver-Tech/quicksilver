@@ -13,7 +13,7 @@ const Features = () => {
             center
           />
 
-          <div className="grid grid-cols-2 gap-x-8 gap-y-14 md:grid-cols-3 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-4">
             {WorkingProcess.map((feature) => (
               <SingleFeature key={feature.id} feature={feature} />
             ))}
