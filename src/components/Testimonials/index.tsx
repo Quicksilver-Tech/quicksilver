@@ -5,29 +5,29 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Sajjan Kumar",
-    designation: "Co-Founder @TailGrids",
+    name: "Aman Bhaduria",
+    designation: "Co-Founder @Dekorate",
     content:
       "We were looking for a professional web development team to partner with. Their instant reply to my enquiry and level of thought made them stand out on our shortlist. We were inspired by their clear, concise, and timely communication with us.",
-    image: "images/testimonials/auth-01.png",
+    image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder & CEO, Spencer Reality, LLC",
+    name: "Jerrin Thomas",
+    designation: "Founder & CEO, Nu-Pie Management Private Limited",
     content:
       "It was hard to find a vendor that has collaborative nature and expertise in customizable design. We found Quicksilver team and were blown away by their energy & passion for web designing. They were easy to communicate with and conveyed every roadblock in their process.",
-    image: "images/testimonials/auth-02.png",
+    image: "/images/testimonials/t2.jpg",
     star: 5,
   },
   {
     id: 3,
-    name: "Client Partner",
-    designation: "Owner, OntarioCamping",
+    name: "Subham Kumar",
+    designation: "Owner, StartupTalky",
     content:
-      "We were looking for a development partner for one of our latest projects and had very specific requirements. We partnered with ColorWhistle. I liked the way the team approached the requirements and the project. Communicating with the team was amazing. They always kept us updated and everything was on time.",
-    image: "images/testimonials/auth-03.png",
+      "We were looking for a development partner for one of our latest projects and had very specific requirements. We partnered with Quicksilver. I liked the way the team approached the requirements and the project. Communicating with the team was amazing. They always kept us updated and everything was on time.",
+    image: "/images/testimonials/auth-03.png",
     star: 5,
   },
 ];
