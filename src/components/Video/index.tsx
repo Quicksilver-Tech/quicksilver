@@ -1,8 +1,8 @@
 const stats = [
   { id: 1, name: 'Years of Domain Expertise', value: '10+' },
   { id: 2, name: 'Client Retention', value: '100%' },
-  { id: 3, name: 'Projects Completed', value: '500+' },
-  { id: 4, name: 'Experts', value: '30+' }
+  { id: 3, name: 'Projects Completed', value: '20+' },
+  { id: 4, name: 'Experts', value: '10+' }
 ]
 
 export default function ChooseUs() {
